@@ -1,0 +1,111 @@
+# Title:Tracking_Table
+# cant units:5
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:0
+# location x:94
+# location y:47
+# name:Wait
+# Atomic TL:00:00:00:00
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:1
+# location x:32
+# location y:165
+# name:New_Signal_Detected
+# Atomic TL:00:00:00:05
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:6
+# location x:91
+# location y:277
+# name:Send_Update_To_Bus
+# Atomic TL:00:00:00:10
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:14
+# location x:229
+# location y:76
+# name:Receive_Update_From_Bus
+# Atomic TL:00:00:00:01
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:18
+# location x:285
+# location y:234
+# name:Notify_New_Freq
+# Atomic TL:00:00:00:03
+# Cant Ports:6
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:2
+# Port ID:signal_props
+# Port In/Out:In
+# Port Type:Float
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:3
+# Port ID:bus_receive_freq
+# Port In/Out:In
+# Port Type:Float
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:4
+# Port ID:bus_receive_id
+# Port In/Out:In
+# Port Type:Integer
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:9
+# Port ID:bus_send_freq
+# Port In/Out:Out
+# Port Type:Float
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:10
+# Port ID:bus_send_id
+# Port In/Out:Out
+# Port Type:Integer
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:11
+# Port ID:new_freq
+# Port In/Out:Out
+# Port Type:Float
+# Cant Links:6
+# 		Link Type:gui.model.link.AtomicExternalLink
+# 		Link unique Id:5
+# 		start unit Point:0
+# 		end unit Point:1
+# 		cant Expressions:1
+# 		Expr Type:gui.model.Function
+# 		Expr:signal_props
+# 		Value :
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:7
+# 		start unit Point:1
+# 		end unit Point:6
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:8
+# 		start unit Point:6
+# 		end unit Point:0
+# 		cant Expressions:1
+# 		Port Class:gui.model.port.AtomicPort
+# 		PortRef:9
+# 		Value :update_freq
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:19
+# 		start unit Point:14
+# 		end unit Point:18
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:20
+# 		start unit Point:18
+# 		end unit Point:0
+# 		cant Expressions:0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicExternalLink
+# 		Link unique Id:21
+# 		start unit Point:0
+# 		end unit Point:14
+# 		cant Expressions:0
+# 		cant Actions:0
+# Initial Name:0
+# Vars cant:1
+# varName:update_freq
+# varVal:0
+# Var UniqueId:12

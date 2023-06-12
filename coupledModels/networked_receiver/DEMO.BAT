@@ -1,0 +1,1 @@
+..\..\simu -mNETWORK_RECEIVER.ma -enetwork_receiver.ev -lnetwork_receiver.log -onetwork_receiver.out

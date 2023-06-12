@@ -1,0 +1,15 @@
+[Scanning_receiver]
+in: ext_signal 
+out: notify detected_signal_properties 
+var: detected_freq 
+state: Scan Signal_Detected Process_Signal Notify 
+initial : Scan
+ext: Scan Signal_Detected ext_signal? 
+int: Signal_Detected Process_Signal notify!1 
+int: Process_Signal Notify 
+int: Notify Scan 
+Scan:00:00:00:00
+Signal_Detected:00:00:00:01
+Process_Signal:00:00:00:10
+Notify:00:00:00:30
+detected_freq:0

@@ -1,0 +1,1 @@
+..\..\simu -mNETRX_WITH_TX.ma -t00:00:00:300 -enetrx_with_tx.ev -lnetrx_with_tx.log -onetrx_with_tx.out

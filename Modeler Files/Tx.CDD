@@ -1,0 +1,8 @@
+[Transmitter]
+out: Pulse_Out 
+state: Transmit Wait 
+initial : Transmit
+int: Transmit Wait Pulse_Out!0 
+int: Wait Transmit Pulse_Out!22000 
+Transmit:00:00:00:05
+Wait:00:00:00:40

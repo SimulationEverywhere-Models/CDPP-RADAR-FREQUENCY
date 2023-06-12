@@ -1,0 +1,18 @@
+[Tracking_Table]
+in: signal_props bus_receive_freq bus_receive_id 
+out: bus_send_freq bus_send_id new_freq 
+var: update_freq 
+state: Wait New_Signal_Detected Send_Update_To_Bus Receive_Update_From_Bus Notify_New_Freq 
+initial : Wait
+ext: Wait New_Signal_Detected signal_props? 
+int: New_Signal_Detected Send_Update_To_Bus 
+int: Send_Update_To_Bus Wait bus_send_freq!update_freq 
+int: Receive_Update_From_Bus Notify_New_Freq 
+int: Notify_New_Freq Wait 
+ext: Wait Receive_Update_From_Bus 
+Wait:00:00:00:00
+New_Signal_Detected:00:00:00:05
+Send_Update_To_Bus:00:00:00:10
+Receive_Update_From_Bus:00:00:00:01
+Notify_New_Freq:00:00:00:03
+update_freq:0

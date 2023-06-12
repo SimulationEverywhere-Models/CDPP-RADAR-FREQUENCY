@@ -1,0 +1,41 @@
+# Title:Transmitter
+# cant units:2
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:0
+# location x:58
+# location y:81
+# name:Transmit
+# Atomic TL:00:00:00:05
+# Unit class:gui.model.unit.AtomicUnit
+# Unique ID:1
+# location x:257
+# location y:83
+# name:Wait
+# Atomic TL:00:00:00:40
+# Cant Ports:1
+# Port Class:gui.model.port.AtomicPort
+# Port UniqueId:6
+# Port ID:Pulse_Out
+# Port In/Out:Out
+# Port Type:Float
+# Cant Links:2
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:4
+# 		start unit Point:0
+# 		end unit Point:1
+# 		cant Expressions:1
+# 		Port Class:gui.model.port.AtomicPort
+# 		PortRef:6
+# 		Value :0
+# 		cant Actions:0
+# 		Link Type:gui.model.link.AtomicInternalLink
+# 		Link unique Id:5
+# 		start unit Point:1
+# 		end unit Point:0
+# 		cant Expressions:1
+# 		Port Class:gui.model.port.AtomicPort
+# 		PortRef:6
+# 		Value :22000
+# 		cant Actions:0
+# Initial Name:0
+# Vars cant:0

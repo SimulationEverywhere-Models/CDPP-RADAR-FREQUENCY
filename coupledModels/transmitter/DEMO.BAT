@@ -1,0 +1,1 @@
+..\..\simu -mtransmitter.ma -t00:00:00:300 -ltransmitter.log -otransmitter.out

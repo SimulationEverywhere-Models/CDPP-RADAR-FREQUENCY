@@ -1,0 +1,1 @@
+..\..\simu -mscanning_receiver.ma -escanning_receiver.ev -lscanning_receiver.log -oscanning_receiver.out
